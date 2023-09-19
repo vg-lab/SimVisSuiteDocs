@@ -1,6 +1,6 @@
 # SimVisSuite Developers Documentation
 
-Documentation to adi development of [SimVisSuite applications] (https://vg-lab.es).
+Brief documentation for development of [SimVisSuite applications] (https://vg-lab.es).
 
 ## Requirements
 
