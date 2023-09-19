@@ -2,11 +2,20 @@
 ViSimpl Development
 ===================
 
+.. figure:: images/visimpl_deps.png
+   :alt: ViSimpl software stack.
+   :align: center
+   :width: 643
+   :scale: 90%
+
+   ViSimpl software stack.
+
 --------------------------------
 ViSimpl dependencies and options
 --------------------------------
 
 These libraries are **required** for compilation of ViSimpl:
+
 * GLM
 * Qt version 5.
 * GLEW
@@ -18,14 +27,18 @@ These libraries are **required** for compilation of ViSimpl:
 * AcuteRecorder
 * scoop
 * Boost
+* Brion
  
 The following libraries are **optional** and can be enabled with the following CMake options:
-* **VISIMPL_OPTIONALS_AS_REQUIRED**: Enables/Disables network autodiscovery and communications.
+
+* **VISIMPL_OPTIONALS_AS_REQUIRED**: Enables/Disables network autodiscovery and communications. Requires:
+
   * ZeroEQ
   * gmrvLex
   * Lexis
 
 However those optional libraries can be deactivated with the additional CMake options:
+
 * **VISIMPL_WITH_ZEROEQ**: Enables/Disables autodiscovery and network communications.
 * **VISIMPL_WITH_GMRVLEX**: Enables/Disables the **gmrvLex** communication messages.
 
@@ -36,6 +49,7 @@ ViSimpl compilation
 -------------------
 
 Compilation steps:
+
 #. Before configuring the project with CMake the file **.gitsubprojects** must be edited and those dependencies needed must be uncommented. By default only the minimum required libraries are enabled. To compile a feature complete ViSimpl all dependencies must be enabled in this file.
 #. After that the project must be configured using **CMake**. It's recommended to use a build directory different from the one containing the source code.
 #. Enable the options required for your build. CMake will display also the options of the depedencies, but the default options are enough to compile NeuroScheme and no further modifications are required.
@@ -52,6 +66,7 @@ ViSimpl source code
 -------------------
 
 The source code is structured in three subdirectories:
+
 * visimpl: Contains ViSimpl graphical application (and a version of StackViz embedded for computers without autodiscovery).
 * stackviz: Contains StackViz standalone application source code for histogram data visualization.
 * sumrice: Library that contains common widgets used in both applications.

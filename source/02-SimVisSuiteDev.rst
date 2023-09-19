@@ -26,6 +26,7 @@ Dependencies
 In overview, the SimVisSuite applications depend on the following external libraries to provide some of its functionalities:
 
 * UI, 3D visualization and general purpose:
+
   * `Qt`_: Cross-platform graphical library and tools.
   * `Boost`_: general purpose C++ libraries.
   * `scoop`_: library to implement and manage color palettes and value-mappers.
@@ -37,13 +38,17 @@ In overview, the SimVisSuite applications depend on the following external libra
   * `GLUT`_: OpenGL utility toolkit library.
   * `ShiFT`_: library based on `FiReS`_ to implement properties and data structures to define relationships between entities.
   * `Eigen3`_: template library for linear algebra operations.
+
 * NeuroScience related:
+
   * `Brion`_: library to read and write access to Blue Brain data structures.
   * `nsol`_: library that provides data structures to handle basic neuroscientific data, mainly cortex morphologies and its structures.
   * `SimIL`_: library to read brain simulation datasets in BlueConfig, HDF5 and CSV formats.
   * `HDF5`_: library that implement the HDF5 data model read and write operations.
   * `NeuroLOTs`_: set of libraries and tools for generating neuronal meshes and for visualizing them at different levels of detail using GPU-based tessellation.
+    
 * Connectivity and Network:
+
   * `ZeroEQ`_: library for modern messaging using ZeroMQ that also integrates REST APIs with JSON payload.
   * `Lexis`_: library to implement a vocabulary used for event-driven communication in and between visualization software.
   * `gmrvLex`_: library that implements the vocabulary for event-driven communication between SimVisSuite applications using Lexis.
