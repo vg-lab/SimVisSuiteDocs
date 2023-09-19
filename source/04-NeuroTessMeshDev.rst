@@ -5,10 +5,10 @@ NeuroTessMesh Development
 .. figure:: images/neurotessmesh_deps.png
    :alt: NeuroTessMesh software stack.
    :align: center
-   :width: 656
-   :scale: 90%
+   :width: 503
+   :scale: 100%
 
-   NeuroScheme software stack.
+   NeuroTessMesh software stack.
 
 
 --------------------------------------
