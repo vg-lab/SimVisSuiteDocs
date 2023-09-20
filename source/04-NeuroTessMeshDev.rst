@@ -41,8 +41,8 @@ NeuroTessMesh compilation
 
 Compilation steps:
 
-#. Before configuring the project with CMake the file **.gitsubprojects** must be edited and those dependencies needed must be uncommented. By default only the minimum required libraries are enabled. To compile a feature complete NeuroTessMesh all dependencies must be enabled in this file.
-#. After that the project must be configured using **CMake**. It's recommended to use a build directory different from the one containing the source code.
+#. Before configuring the project with CMake the file **.gitsubprojects** must be edited and those dependencies needed must be uncommented. By default only the minimum required libraries are enabled. To compile a feature complete NeuroTessMesh all dependencies must be uncommented in this file.
+#. After that the project must be configured using **CMake** (either with ``cmake`` command or ``ccmake`` but the GUI CMake application is the preferred one). It's recommended to use a build directory different from the one containing the source code.
 #. Enable the options required for your build. CMake will display also the options of the depedencies, but the default options are enough to compile NeuroTessMesh and no further modifications are required.
 #. Once configured the project can be compiled.
 

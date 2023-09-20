@@ -90,6 +90,7 @@ Compilation problems
 --------------------
 
 While SimVisSuite applications code compile without modifications some of its dependencies can report problems compiling in newer versions of the compilers. The possible solutions are:
+
 * Override warnings either modifying the compiler flags or adding ``#pragma`` preprocessor directives in the offending source code files.
 * Manually fix the problems updating the code to the new standard requirements. 
 
