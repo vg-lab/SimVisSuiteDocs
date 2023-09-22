@@ -10,6 +10,8 @@ NeuroScheme Development
 
    NeuroScheme software stack.
 
+The information in this documentation refers to NeuroScheme version 0.7.5.
+
 ------------------------------------
 NeuroScheme dependencies and options
 ------------------------------------

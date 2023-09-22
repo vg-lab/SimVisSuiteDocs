@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'SimVisSuite Developers Documentation'
-copyright = '2023, Félix de las Pozas Álvarez'
+copyright = '2023, Universidad Rey Juan Carlos'
 author = 'Félix de las Pozas Álvarez'
 
 # The short X.Y version

@@ -10,6 +10,7 @@ NeuroTessMesh Development
 
    NeuroTessMesh software stack.
 
+The information in this documentation refers to NeuroTessMesh version 0.4.4.
 
 --------------------------------------
 NeuroTessMesh dependencies and options

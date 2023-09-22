@@ -10,6 +10,8 @@ ViSimpl Development
 
    ViSimpl software stack.
 
+The information in this documentation refers to ViSimpl version 1.8.9.
+
 --------------------------------
 ViSimpl dependencies and options
 --------------------------------
